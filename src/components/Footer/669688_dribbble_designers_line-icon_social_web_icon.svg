@@ -1,0 +1,40 @@
+var _g;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function Svg669688DribbbleDesignersLineIconSocialWebIcon(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Layer_1",
+    style: {
+      enableBackground: "new 0 0 24 24"
+    },
+    viewBox: "0 0 24 24",
+    xmlSpace: "preserve",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M12,24.002c-6.617,0-12-5.383-12-12s5.383-12,12-12s12,5.383,12,12S18.617,24.002,12,24.002z M12,1.002    c-6.065,0-11,4.935-11,11s4.935,11,11,11s11-4.935,11-11S18.065,1.002,12,1.002z",
+    fill: "#ffffff"
+  })), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M17,22.502c-0.262,0-0.482-0.204-0.499-0.469C16.044,14.72,12.563,7.146,7.189,1.772c-0.195-0.195-0.195-0.512,0-0.707    s0.512-0.195,0.707,0c5.541,5.541,9.131,13.356,9.603,20.905c0.017,0.276-0.192,0.513-0.468,0.53    C17.021,22.501,17.01,22.502,17,22.502z",
+    fill: "#ffffff"
+  })), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M1,11.064c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5c6.742,0,15.437-1.096,18.571-6.32    c0.142-0.236,0.449-0.313,0.686-0.171s0.313,0.449,0.171,0.686C17.054,9.883,8,11.064,1,11.064z",
+    fill: "#ffffff"
+  })), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M4.687,21.044c-0.084,0-0.169-0.021-0.248-0.066c-0.24-0.137-0.323-0.442-0.186-0.682    c4.227-7.397,12.93-9.76,18.905-7.768c0.262,0.087,0.403,0.37,0.316,0.632c-0.087,0.262-0.369,0.403-0.632,0.316    c-5.589-1.862-13.747,0.364-17.72,7.316C5.029,20.953,4.861,21.044,4.687,21.044z",
+    fill: "#ffffff"
+  })))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(Svg669688DribbbleDesignersLineIconSocialWebIcon);
+export default __webpack_public_path__ + "static/media/669688_dribbble_designers_line-icon_social_web_icon.03fe819ec57f24a41cf6037aec6eef82.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,41 @@
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgHandFingerPointingDownLikeAnArrowSnr2Sy12Qnoh(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Capa_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    viewBox: "0 0 564.49 564.49",
+    style: {
+      enableBackground: "new 0 0 564.49 564.49"
+    },
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M447.548,0H242.845c-20.557,0-37.215,16.665-37.215,37.216V66.99c0,20.557,16.665,37.215,37.215,37.215h204.703 c20.557,0,37.222-16.665,37.222-37.215V37.216C484.77,16.665,468.104,0,447.548,0z",
+    fill: "#000000",
+    style: {
+      fill: "rgb(239, 235, 235)"
+    }
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M469.88,131.378H220.52c-8.225,0-18.715,5.459-23.77,11.94c-13.005,16.665-39.088,47.216-70.264,68.305 c-6.812,4.608-18.635,10.961-24.786,16.414c-23.586,20.924-23.434,51.886-20.802,69.939c1.188,8.134,9.437,12.295,17.179,9.529 l93.538-33.403c7.742-2.766,14.021,1.659,14.021,9.878v84.425v31.519v123.483c0,22.692,20.875,41.083,46.628,41.083 s46.628-18.391,46.628-41.083v-85.606l133.948-20.723c8.128-1.255,19.75-6.641,25.962-12.026l14.718-12.754 c6.212-5.386,11.249-16.413,11.249-24.639V146.262C484.77,138.043,478.104,131.378,469.88,131.378z",
+    fill: "#bfbfbf",
+    style: {
+      fill: "rgb(239, 235, 235)"
+    }
+  }))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgHandFingerPointingDownLikeAnArrowSnr2Sy12Qnoh);
+export default __webpack_public_path__ + "static/media/hand_finger_pointing_down_like_an_arrow_snr2sy12qnoh.73d518a5e8199b511299a8c1d92fd324.svg";
+export { ForwardRef as ReactComponent };
